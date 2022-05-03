@@ -1,2 +1,3 @@
-# production
-/build
+dist
+dist-ssr
+*.local
