@@ -2,6 +2,9 @@
   "name": "monorepo-react-app",
   "private": true,
   "workspaces": {
-    "packages": ["packages/*"]
-  }
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "yarn@3.2.0"
 }
