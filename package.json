@@ -1,3 +1,7 @@
 {
-  "name": "monorepo-react-app"
+  "name": "monorepo-react-app",
+  "private": true,
+  "workspaces": {
+    "packages": ["packages/*"]
+  }
 }
