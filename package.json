@@ -1,6 +1,9 @@
 {
   "name": "monorepo-react-app",
   "private": true,
+  "engines": {
+    "node": "16"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
