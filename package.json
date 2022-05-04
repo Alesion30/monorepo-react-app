@@ -9,8 +9,22 @@
       "packages/*"
     ]
   },
-  "packageManager": "yarn@3.0.0",
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+    "lint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix",
+    "format": "prettier --write ."
+  },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-sort": "^2.4.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-sort-json": "^0.0.2",
     "typescript": "^4.6.4"
-  }
+  },
+  "packageManager": "yarn@3.0.0"
 }
