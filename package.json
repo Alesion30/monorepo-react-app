@@ -9,5 +9,8 @@
       "packages/*"
     ]
   },
-  "packageManager": "yarn@3.0.0"
+  "packageManager": "yarn@3.0.0",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
